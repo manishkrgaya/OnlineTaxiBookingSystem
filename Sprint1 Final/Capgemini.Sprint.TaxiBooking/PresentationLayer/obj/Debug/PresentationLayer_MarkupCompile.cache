@@ -1,0 +1,20 @@
+﻿PresentationLayer
+
+
+winexe
+C#
+.cs
+C:\Users\manis\OneDrive\Desktop\Github\Capgemini\OnlineTaxiBookingSystem\Sprint1 Final\Capgemini.Sprint.TaxiBooking\PresentationLayer\obj\Debug\
+PresentationLayer
+none
+false
+DEBUG;TRACE
+C:\Users\manis\OneDrive\Desktop\Github\Capgemini\OnlineTaxiBookingSystem\Sprint1 Final\Capgemini.Sprint.TaxiBooking\PresentationLayer\App.xaml
+20740495214
+
+24924328980
+15-528325873
+AdminRoleButton.xaml;ApplicationLogin.xaml;AvailableTaxi.xaml;CheckHistory.xaml;CheckOnlineBooking.xaml;CustomerCalculateFare.xaml;CustomerCheckBookingStatus.xaml;CustomerMakeABooking.xaml;CustomerRegistrations.xaml;CustomerRoleButton.xaml;EmployeeRegistration.xaml;EmployeeRoleButton.xaml;PasswordUpdate.xaml;RegisterUser.xaml;ReportWindow.xaml;RosterDetail.xaml;RosterManangement.xaml;SearchBooking.xaml;TaxiAvailability.xaml;UserDetails.xaml;
+
+True
+

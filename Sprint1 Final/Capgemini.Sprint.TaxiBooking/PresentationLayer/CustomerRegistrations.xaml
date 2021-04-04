@@ -1,0 +1,23 @@
+﻿<Window x:Name="CustomerRegistration" x:Class="PresentationLayer.CustomerRegistrations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="CustomerRegistrations" Height="450" Width="800" Closed="CustomerRegistration_Closed">
+    <Grid>
+        <Label Content="NAME" HorizontalAlignment="Left" Margin="18,61,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBox Name="TxtName" HorizontalAlignment="Left" Height="26" Margin="146,61,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="245"/>
+        <Label Content="PHONE NUMBER" HorizontalAlignment="Left" Margin="18,113,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBox Name="TxtPhoneNumber" HorizontalAlignment="Left" Height="26" Margin="146,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245"/>
+        <Label Content="EMAIL ID" HorizontalAlignment="Left" Margin="18,165,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBox Name="TxtEmailId" HorizontalAlignment="Left" Height="26" Margin="146,165,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="245"/>
+        <Label Content="ADDRESS" HorizontalAlignment="Left" Margin="18,207,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBox Name="TxtAddress" HorizontalAlignment="Left" Height="26" Margin="146,207,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="245"/>
+        <Label Name="Lbl_CustomerRegistered" Content="" HorizontalAlignment="Left" Margin="424,112,0,0" VerticalAlignment="Top" Width="360" Height="27" Grid.ColumnSpan="2"/>
+        <Button Name="BtnAdd" Content="ADD NEW CUSTOMER" HorizontalAlignment="Left" Margin="146,273,0,0" VerticalAlignment="Top" Width="245" Height="30" Click="BtnAdd_Click" FontWeight="Bold" FontSize="14" />
+        <Label Name="Lbl_Validation" Content="" HorizontalAlignment="Left" Margin="424,61,-0.4,0" VerticalAlignment="Top" Width="370" Grid.ColumnSpan="2"/>
+        <Label Content="REGISTER YOURSELF" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="236" FontSize="20" Margin="7,3,0,0"/>
+    </Grid>
+</Window>

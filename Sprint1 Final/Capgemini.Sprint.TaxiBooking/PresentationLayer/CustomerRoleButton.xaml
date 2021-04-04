@@ -1,0 +1,25 @@
+﻿<Window x:Name="CustomerRoleButton1" x:Class="PresentationLayer.CustomerRoleButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="CustomerRoleButton" Height="450" Width="800" Loaded="CustomerRoleButton1_Loaded">
+    <Grid>
+        <Label Name="lblRole" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="800" Height="6"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" Margin="0,6,-0.4,0" Stroke="Black" VerticalAlignment="Top" Width="794"/>
+        <StackPanel Name="sPanelCustomer" HorizontalAlignment="Left" Height="213" Margin="71,155,0,0" VerticalAlignment="Top" Width="647">
+            <Button Name="btnRegister" Content="Register yourself !!"  Height="47" Click="btnRegister_Click" />
+            <Button Content="Book a ride" Height="41" Click="Button_Click_1"/>
+            <Button Content="Check your booking status" Height="39" Click="Button_Click_2"/>
+            <Button Content="Calculate Fare" Height="40" Click="Button_Click_5"/>
+            <Button Content="Check Drivers History" Height="44" Click="Button_Click"/>
+        </StackPanel>
+
+        <Button Content="LoginPage" HorizontalAlignment="Left" Margin="459,10,0,0" VerticalAlignment="Top" Width="81" Height="23" Click="Button_Click_3"/>
+        <Button Content="Search Taxi" HorizontalAlignment="Left" Margin="620,10,0,0" VerticalAlignment="Top" Width="98" Height="23" Click="Button_Click_4"/>
+        <Label Name="lblUser" Content="#" HorizontalAlignment="Left" Margin="517,38,0,0" VerticalAlignment="Top" Height="32" Width="267"/>
+
+    </Grid>
+</Window>

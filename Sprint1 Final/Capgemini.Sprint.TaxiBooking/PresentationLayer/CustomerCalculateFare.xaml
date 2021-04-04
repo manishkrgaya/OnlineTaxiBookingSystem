@@ -1,0 +1,77 @@
+﻿<Window x:Class="PresentationLayer.CustomerCalculateFare"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="CustomerCalculateFare" Height="450" Width="800">
+    <Grid>
+        <Label Content="CALCULATE FARE" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="40" Width="176" FontSize="20"/>
+
+        <Label Content="Start Time" HorizontalAlignment="Left" Margin="204,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.54,1.769" Width="71" Height="27"/>
+        <Label Content="Trip Date" HorizontalAlignment="Left" Margin="204,123,0,0" VerticalAlignment="Top" Width="74" Height="27"/>
+
+        <DatePicker Name="TxtTripDate" HorizontalAlignment="Left" Height="22" Margin="275,124,0,0"  VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="End Time" HorizontalAlignment="Left" Margin="204,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.395,0.577" Width="66" Height="27"/>
+        <ComboBox Name="EndTimeSelection" HorizontalAlignment="Left" Margin="275,210,0,0" VerticalAlignment="Top" Width="120" Height="22" SelectionChanged="EndTimeSelection_SelectionChanged" >
+            <ComboBoxItem Content="00:00"/>
+            <ComboBoxItem Content="01:00"/>
+            <ComboBoxItem Content="02:00"/>
+            <ComboBoxItem Content="03:00"/>
+            <ComboBoxItem Content="04:00"/>
+            <ComboBoxItem Content="05:00"/>
+            <ComboBoxItem Content="06:00"/>
+            <ComboBoxItem Content="07:00"/>
+            <ComboBoxItem Content="08:00"/>
+            <ComboBoxItem Content="09:00"/>
+            <ComboBoxItem Content="10:00"/>
+            <ComboBoxItem Content="11:00"/>
+            <ComboBoxItem Content="12:00"/>
+            <ComboBoxItem Content="13:00"/>
+            <ComboBoxItem Content="14:00"/>
+            <ComboBoxItem Content="15:00"/>
+            <ComboBoxItem Content="16:00"/>
+            <ComboBoxItem Content="17:00"/>
+            <ComboBoxItem Content="18:00"/>
+            <ComboBoxItem Content="19:00"/>
+            <ComboBoxItem Content="20:00"/>
+            <ComboBoxItem Content="21:00"/>
+            <ComboBoxItem Content="22:00"/>
+            <ComboBoxItem Content="23:00"/>
+            <ComboBoxItem Content="24:00"/>
+        </ComboBox>
+        <ComboBox Name="StartTimeSelection" HorizontalAlignment="Left" Margin="275,169,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="StartTimeSelection_SelectionChanged">
+            <ComboBoxItem Content="00:00"/>
+            <ComboBoxItem Content="01:00"/>
+            <ComboBoxItem Content="02:00"/>
+            <ComboBoxItem Content="03:00"/>
+            <ComboBoxItem Content="04:00"/>
+            <ComboBoxItem Content="05:00"/>
+            <ComboBoxItem Content="06:00"/>
+            <ComboBoxItem Content="07:00"/>
+            <ComboBoxItem Content="08:00"/>
+            <ComboBoxItem Content="09:00"/>
+            <ComboBoxItem Content="10:00"/>
+            <ComboBoxItem Content="11:00"/>
+            <ComboBoxItem Content="12:00"/>
+            <ComboBoxItem Content="13:00"/>
+            <ComboBoxItem Content="14:00"/>
+            <ComboBoxItem Content="15:00"/>
+            <ComboBoxItem Content="16:00"/>
+            <ComboBoxItem Content="17:00"/>
+            <ComboBoxItem Content="18:00"/>
+            <ComboBoxItem Content="19:00"/>
+            <ComboBoxItem Content="20:00"/>
+            <ComboBoxItem Content="21:00"/>
+            <ComboBoxItem Content="22:00"/>
+            <ComboBoxItem Content="23:00"/>
+            <ComboBoxItem Content="24:00"/>
+        </ComboBox>
+        <Label Name="lblFare" HorizontalAlignment="Left" Margin="487,150,0,0" VerticalAlignment="Top" Height="82" Width="116" BorderBrush="Black" Background="#FFE5EBF1" />
+        <Label Content="Your Estimated Fare" HorizontalAlignment="Left" Margin="483,124,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="275,257,0,0" VerticalAlignment="Top" Width="120" Height="35" FontWeight="Bold" FontSize="14" Click="btnCalculate_Click"/>
+        <Label Name="Lbl_CustomerCalculateFare" Content="" HorizontalAlignment="Left" Margin="204,322,0,0" VerticalAlignment="Top" Width="399"/>
+    </Grid>
+</Window>

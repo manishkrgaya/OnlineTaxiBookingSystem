@@ -1,0 +1,22 @@
+﻿<Window x:Class="PresentationLayer.UserDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="UserDetails" Height="450" Width="800">
+    <Grid x:Name="UserDetails1" Loaded="UserDetails1_Loaded">
+        <Label Content="Customer Details" HorizontalAlignment="Left" Margin="109,96,0,0" VerticalAlignment="Top" Width="175" Height="37"/>
+        <Label Content="Employee Details" HorizontalAlignment="Left" Margin="510,96,0,0" VerticalAlignment="Top" Width="175" Height="37"/>
+        <DataGrid Name="CustomerGrid" HorizontalAlignment="Left" Height="226" Margin="41,156,0,0" VerticalAlignment="Top" Width="307" />
+        <DataGrid Name="EmployeeGrid" HorizontalAlignment="Left" Height="226" Margin="437,156,0,0" VerticalAlignment="Top" Width="312"/>
+        <ComboBox IsEditable="True" IsReadOnly="True" Text="Select to Navigate" HorizontalAlignment="Left" Margin="573,26,0,0" VerticalAlignment="Top" Width="176" Height="34">
+            <ComboBoxItem Selected="ComboBoxItem_Selected">Register Employee</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_1">Update Password</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_3">Print Report</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_2">Manage Weekly Roster</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Admin Controls" HorizontalAlignment="Left" Margin="437,38,0,0" VerticalAlignment="Top" Width="107"/>
+    </Grid>
+</Window>

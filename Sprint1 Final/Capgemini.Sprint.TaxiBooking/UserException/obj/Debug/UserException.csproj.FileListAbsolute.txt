@@ -1,0 +1,5 @@
+C:\Users\amrita\Downloads\Capgemini.Sprint.TaxiBooking-20210324T085246Z-001\Capgemini.Sprint.TaxiBooking\UserException\bin\Debug\UserException.dll
+C:\Users\amrita\Downloads\Capgemini.Sprint.TaxiBooking-20210324T085246Z-001\Capgemini.Sprint.TaxiBooking\UserException\bin\Debug\UserException.pdb
+C:\Users\amrita\Downloads\Capgemini.Sprint.TaxiBooking-20210324T085246Z-001\Capgemini.Sprint.TaxiBooking\UserException\obj\Debug\UserException.csproj.CoreCompileInputs.cache
+C:\Users\amrita\Downloads\Capgemini.Sprint.TaxiBooking-20210324T085246Z-001\Capgemini.Sprint.TaxiBooking\UserException\obj\Debug\UserException.dll
+C:\Users\amrita\Downloads\Capgemini.Sprint.TaxiBooking-20210324T085246Z-001\Capgemini.Sprint.TaxiBooking\UserException\obj\Debug\UserException.pdb

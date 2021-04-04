@@ -1,0 +1,28 @@
+﻿<Window x:Name="ReportWindows" x:Class="PresentationLayer.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="ReportWindow" Height="450" Width="800" Loaded="ReportWindows_Loaded">
+    <Grid>
+        <RadioButton Name="RadioDaily" Content="Daily Report" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39.2,91,0,0" Grid.Column="1" Checked="RadioDaily_Checked_1" />
+
+        <RadioButton Name="RadioWeeklyOrMonthly" Content="WeeklyOrMonthly Report" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279,88,0,0" Height="18" Width="199" Checked="RadioWeeklyOrMonthly_Checked_1" />
+
+        <DataGrid Name="ReportGrid" HorizontalAlignment="Left" Height="207" VerticalAlignment="Top" Width="794" Margin="0,203,-0.4,0"/>
+
+        <DatePicker Name="dtFromDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="128,140,0,0"/>
+
+        <Label Content="FromDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,136,0,0" Width="78"/>
+
+        <Label Content="ToDate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="279.1,138,0,0" Width="78" Grid.Column="1"/>
+
+        <Button Name="Gobtn" Content="Go" HorizontalAlignment="Left" Margin="496,142,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+        <DatePicker Name="dtToDate" HorizontalAlignment="Left" Margin="335,140,0,0" VerticalAlignment="Top"/>
+
+        <Label Name="LblMessage" Foreground="Red" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="128,177,0,0" Width="443"/>
+    </Grid>
+</Window>
